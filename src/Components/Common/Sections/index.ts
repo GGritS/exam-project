@@ -1,0 +1,1 @@
+export { SectionWithBackground } from "./SectionWithBackground";

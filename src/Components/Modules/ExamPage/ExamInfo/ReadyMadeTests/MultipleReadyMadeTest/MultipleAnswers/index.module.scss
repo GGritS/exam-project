@@ -1,0 +1,39 @@
+.imageWrap {
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  column-gap: 58px;
+  row-gap: 16px;
+}
+
+.answersList {
+  width: 100%;
+  height: content;
+}
+
+.answerText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #777777;
+}
+
+.answer {
+  width: fit-content;
+  cursor: pointer;
+  margin-bottom: 12px;
+  margin-top: 8px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #4282aa;
+}

@@ -1,0 +1,25 @@
+.addedImg {
+  border: 1px solid #d0e8ef;
+  border-radius: 4px;
+  width: 160px;
+  height: 160px;
+}
+
+.wrapper {
+  position: relative;
+}
+.removeIconWrap {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  width: 32px;
+  height: 32px;
+  background: #f5f7fa;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

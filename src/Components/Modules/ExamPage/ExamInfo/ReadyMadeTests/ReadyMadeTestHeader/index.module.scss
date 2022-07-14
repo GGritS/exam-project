@@ -1,0 +1,89 @@
+.wrapper {
+  width: 100%;
+  padding: 10px 0px;
+
+  display: flex;
+}
+
+.questionHeaderTextLattice {
+  text-transform: uppercase;
+  width: 72px;
+  height: 22px;
+
+  display: flex;
+  justify-content: center;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+
+  color: #193046;
+}
+
+.questionHeaderTextQuestion {
+  height: 22px;
+
+  flex-grow: 1;
+  margin-right: 24px;
+}
+
+.questionHeaderTextStandart {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+
+  color: #193046;
+  height: 22px;
+
+  width: 184px;
+}
+.questionHeaderTextActions {
+  height: 22px;
+
+  padding-right: 8px;
+  width: 64px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.questionHeaderTextQuestionItem {
+  width: 100%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.multiple {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 4px;
+
+  background: #8cb89f;
+  border-radius: 4px;
+}
+
+.matching {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 4px;
+
+  background: #aa8cb8;
+  border-radius: 4px;
+}

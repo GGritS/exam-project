@@ -1,0 +1,35 @@
+.wrapper {
+  width: 320px;
+  height: 77px;
+  border-radius: 4px;
+  background-color: #ffffff;
+
+  display: flex;
+  align-items: center;
+}
+
+.examCategoryItemImg {
+  width: 32px;
+  height: 32px;
+  margin-left: 16px;
+  margin-right: 12px;
+}
+
+.categoryTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+
+  color: #193046;
+}
+
+.categoryName {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #4282aa;
+}

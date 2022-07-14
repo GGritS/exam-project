@@ -1,0 +1,23 @@
+.wrapper {
+  margin-right: 8px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 8px, 0px, 8px, 24px;
+  margin-bottom: 16px;
+
+  width: 100%;
+  min-height: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.content {
+  text-align: start;
+  padding-right: 100px;
+  margin: 0px 180px 0px 72px;
+  word-wrap: break-word;
+  // width: min-content;
+  height: content;
+}

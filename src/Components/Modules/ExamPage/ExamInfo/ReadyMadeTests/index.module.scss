@@ -1,0 +1,62 @@
+.wrapper {
+  margin-top: 44px;
+  width: 100%;
+}
+.content {
+  height: 472px;
+  overflow: auto;
+}
+
+.ReadyMadeTestContentWrap {
+  margin-right: 8px;
+}
+.content::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background-color: #e3edf2;
+}
+.content::-webkit-scrollbar {
+  width: 8px;
+  height: 115px;
+}
+.content::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: #4282aa;
+}
+
+.header {
+  padding-bottom: 24px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+
+  color: #727e83;
+  width: 100%;
+
+  display: flex;
+  .questionHeaderTextLattice {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 72px;
+  }
+  .questionHeaderTextQuestion {
+    height: 100%;
+
+    flex-grow: 1;
+  }
+  .questionHeaderTextStandart {
+    height: 100%;
+    width: 184px;
+  }
+  .questionHeaderTextActions {
+    height: 100%;
+    width: 72px;
+  }
+  .scrollSpace {
+    height: 100%;
+    width: 8px;
+  }
+}

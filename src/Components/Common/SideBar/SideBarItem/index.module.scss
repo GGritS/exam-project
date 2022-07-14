@@ -1,0 +1,41 @@
+.wrapper {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notifications {
+  position: absolute;
+  background-color: pink;
+  right: 0;
+  top: 0;
+
+  padding: 1px 5px;
+  gap: 10px;
+
+  color: #ffffff;
+  background: #e32b99;
+  border-radius: 4px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 126%;
+  text-align: center;
+}
+
+.active {
+  background: #4282aa;
+  border-radius: 8px;
+}
+
+.img {
+  max-width: 24px;
+  max-height: 24px;
+}

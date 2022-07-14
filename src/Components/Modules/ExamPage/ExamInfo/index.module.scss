@@ -1,0 +1,59 @@
+.wrapper {
+  padding: 20px;
+  width: 100%;
+  height: 290px;
+}
+
+.questionInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #193046;
+  }
+}
+
+.examInfoBlock {
+  width: 100%;
+  height: 174px;
+  margin-bottom: 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.examCourseAndTime {
+  width: 628px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  .line {
+    width: content;
+    height: 1px;
+    background-color: #d0e8ef;
+    margin: 0px 24px 0px 16px;
+  }
+}
+
+.examCategory {
+  height: 100%;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.readyMadeTests {
+  height: 512px;
+}
