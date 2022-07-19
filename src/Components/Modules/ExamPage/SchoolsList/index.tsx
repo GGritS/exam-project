@@ -4,6 +4,7 @@ import SearchIcon from "@mui/icons-material/Search";
 
 import style from "./index.module.scss";
 import { SchoolItem } from "./SchoolItem";
+import { theme } from "../../../../theme";
 
 interface SchoolsListProps {
   schools: string[];
@@ -28,7 +29,7 @@ export const SchoolsList: FC<SchoolsListProps> = ({ schools }) => {
       </div>
       <div className={style.searchLine}>
         <OutlinedInput
-          sx={{ width: "100%", height: "38px" }}
+          sx={{ width: "100%", height: "38px", backgroundColor: "#fff" }}
           id="outlined-adornment-weight"
           startAdornment={
             <InputAdornment position="start">
@@ -56,8 +57,10 @@ export const SchoolsList: FC<SchoolsListProps> = ({ schools }) => {
           fontWeight: 600,
           fontSize: "16px",
           lineHeight: "150%",
-          color: "#4282AA",
           alignItems: "center",
+
+          color: theme.palette.primary.main,
+          borderColor: theme.palette.primary.main,
         }}
       >
         Assign To Class

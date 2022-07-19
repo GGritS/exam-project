@@ -8,14 +8,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  span {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 150%;
-    color: #193046;
-  }
 }
 
 .examInfoBlock {
@@ -24,14 +16,15 @@
   margin-bottom: 40px;
 
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .examCourseAndTime {
-  width: 628px;
+  flex-grow: 1;
+  // width: 628px;
   height: 100%;
   background-color: #ffffff;
+
   border-radius: 4px;
 
   display: flex;
@@ -46,6 +39,7 @@
 }
 
 .examCategory {
+  margin-right: 20px;
   height: 100%;
   display: flex;
 
@@ -56,4 +50,19 @@
 
 .readyMadeTests {
   height: 512px;
+}
+
+.questionsCountText {
+  font-family: "Poppins";
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #193046;
 }

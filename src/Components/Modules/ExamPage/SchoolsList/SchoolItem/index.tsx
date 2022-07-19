@@ -15,8 +15,17 @@ export const SchoolItem: FC<SchoolItemProps> = ({
   return (
     <div className={style.wrapper}>
       <div className={style.schoolItemText}>
-        {dropDownList && <ArrowRightIcon />}
-        <span>{name}</span>
+        {dropDownList && (
+          <ArrowRightIcon
+            sx={{
+              color: "#777777",
+              fontSize: "13px",
+              marginRight: "8px",
+              // backgroundColor: "red",
+            }}
+          />
+        )}
+        <span className={style.schoolNameText}>{name}</span>
       </div>
       <input type="checkbox" />
     </div>
