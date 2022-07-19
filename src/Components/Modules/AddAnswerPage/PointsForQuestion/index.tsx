@@ -6,6 +6,7 @@ import EditTwoToneIcon from "@mui/icons-material/EditTwoTone";
 
 import style from "./index.module.scss";
 import { useAppSelector } from "../../../../Redux/hook";
+import { theme } from "../../../../theme";
 
 export const PointsForQuestion: FC = () => {
   const { type } = useAppSelector((state) => state.Test.tempTest);
@@ -31,6 +32,8 @@ export const PointsForQuestion: FC = () => {
           fontWeight: "500",
           fontSize: "14px",
           lineHeight: "140%",
+          color: theme.palette.primary.main,
+          borderColor: theme.palette.primary.main,
         }}
       >
         <EditTwoToneIcon sx={{ fontSize: "15px", marginRight: "10px" }} />

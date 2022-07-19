@@ -7,6 +7,7 @@ import style from "./index.module.scss";
 import { ExamCategoryItem } from "./ExamCategoryItem";
 import { useAppSelector } from "../../../../Redux/hook";
 import { ReadyMadeTests } from "./ReadyMadeTests";
+import { theme } from "../../../../theme";
 
 interface ExamInfoProps {
   grade: string;
@@ -54,18 +55,24 @@ export const ExamInfo: FC<ExamInfoProps> = ({
         </div>
       </div>
       <div className={style.questionInfo}>
-        <span>Questions ({Tests.length})</span>
+        <span className={style.questionsCountText}>
+          Questions ({Tests.length})
+        </span>
         <Link to="/AddQuestionPage" style={{ textDecoration: "none" }}>
           <Button
             variant="outlined"
             sx={{
               textTransform: "none",
-              color: "#4282AA",
-              borderColor: "#4282AA",
+              color: theme.palette.primary.main,
+              borderColor: theme.palette.primary.main,
             }}
           >
             <AddIcon
-              sx={{ fontSize: 14, marginRight: "10px", color: "#4282AA" }}
+              sx={{
+                fontSize: 14,
+                marginRight: "10px",
+                color: theme.palette.primary.main,
+              }}
             />
             Add question
           </Button>

@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import { SideBarAvatar } from "../SideBarAvatar";
 import { SideBarItem } from "../SideBarItem";
 import { SideBarItem as SideBarItemType } from "../types";
+import style from "./index.module.scss";
 
 const sideBarItems: SideBarItemType[] = [
   {
@@ -22,7 +23,9 @@ export const SideBarTools: FC = () => {
   return (
     <div>
       {sideBarItems.map((sideItem) => (
-        <SideBarItem {...sideItem} key={sideItem.pk} />
+        <div className={style.sidebarToolWrap} style={{ marginBottom: "12px" }}>
+          <SideBarItem {...sideItem} key={sideItem.pk} />
+        </div>
       ))}
       <SideBarAvatar />
     </div>
